@@ -117,36 +117,55 @@
     </div>
 
     <!-- About Me Section (Gallery) -->
-    <div class="container mt-5" id="aboutMe">
-        <h3 class="section-title">About Me - Gallery</h3>
-        <div class="row">
-            <div class="col-md-4 about-img">
-                <img src="assets/images/family.jpg" alt="Family" class="img-fluid">
-            </div>
-            <div class="col-md-4 about-img">
-                <img src="assets/images/sister.jpg" alt="Sister" class="img-fluid">
-            </div>
-            <div class="col-md-4 about-img">
-                <img src="assets/images/me.jpg" alt="Me" class="img-fluid">
-            </div>
+<div class="container mt-5" id="aboutMe">
+    <h3 class="section-title">About Me - Gallery</h3>
+    <div class="row">
+        <div class="col-md-4 about-img">
+            <img src="assets/images/family.jpg" alt="Family" class="gallery-img">
+        </div>
+        <div class="col-md-4 about-img">
+            <img src="assets/images/me.jpg" alt="Me" class="gallery-img">
+        </div>
+        <div class="col-md-4 about-img">
+            <img src="assets/images/sister.jpg" alt="Sister" class="gallery-img">
+        </div>
+		<div class="col-md-4 about-img">
+            <img src="assets/images/twin.jpg" alt="Twin" class="gallery-img">
+        </div>
+        <div class="col-md-4 about-img">
+            <img src="assets/images/cousins.jpg" alt="Cousins" class="gallery-img">
+        </div>
+        <div class="col-md-4 about-img">
+            <img src="assets/images/twinny.jpg" alt="Twinny" class="gallery-img">
         </div>
     </div>
+</div>
 
-    <!-- Details Section (Videos) -->
-    <div class="container mt-5" id="details">
-        <h3 class="section-title">Videos</h3>
-        <div class="row video-section">
-            <div class="col-md-12">
-                <video controls class="w-100">
-                    <source src="assets/videos/sample-video.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
+<style>
+    /* Ensure all gallery images have the same size */
+    .gallery-img {
+        width: 100%; /* Full width of the column */
+        height: 450px; /* Fixed height to match the 2nd image */
+        object-fit: cover; /* Ensures images fill the space without distortion */
+        border: 5px solid #ff99cc; /* Retain your styling */
+        border-radius: 10px; /* Retain your styling */
+    }
+</style>
+
+    <!-- Video Introduction Section -->
+<section id="video-introduction" class="text-center mt-5">
+    <h3 class="section-title">Video Introduction</h3>
+    <div class="video-section">
+        <video width="80%" height="auto" controls>
+            <source src="videos/introduction.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
+</section>
+
 
     <!-- About Section (Likes, Dislikes, Hobbies, Achievements, Skills, Projects) -->
-    <div class="container mt-5" id="about">
+    <div class="container mt-5" id="details">
         <div class="row">
             <div class="col-md-4">
                 <h3 class="section-title">Likes</h3>
@@ -222,11 +241,11 @@
     <footer class="text-center mt-5" id="contact">
         <div class="container">
             <div class="footer-title">Social Media Links</div>
-            <a href="https://facebook.com/your-link" target="_blank" class="social-link"><img src="assets/icons/facebook.png" alt="Facebook"></a>
-            <a href="https://instagram.com/your-link" target="_blank" class="social-link"><img src="assets/icons/instagram.png" alt="Instagram"></a>
-            <a href="https://twitter.com/your-link" target="_blank" class="social-link"><img src="assets/icons/twitter.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com/share/18fX435mtu/" target="_blank" class="social-link"><img src="assets/icons/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/zelvcda/profilecard/?igsh=ZjE1NWwwbDFsajhr" target="_blank" class="social-link"><img src="assets/icons/instagram.png" alt="Instagram"></a>
+            <a href="https://x.com/_stubiatch?t=XSU4ZSd2Jo5j3OYp9vz_LQ&s=09" target="_blank" class="social-link"><img src="assets/icons/twitter.png" alt="Twitter"></a>
         </div>
-    </footer>
+    </footer> 
 
     <!-- Bootstrap JS and Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
